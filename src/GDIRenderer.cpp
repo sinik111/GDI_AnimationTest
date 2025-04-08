@@ -28,7 +28,7 @@ void GDIRenderer::Initialize()
 	back_buffer_graphics = Gdiplus::Graphics::FromHDC(back_buffer_DC);
 }
 
-void GDIRenderer::Release()
+void GDIRenderer::Shutdown()
 {
 	delete back_buffer_graphics;
 	Gdiplus::GdiplusShutdown(gdiplus_token);

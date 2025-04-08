@@ -8,5 +8,5 @@ namespace Game
 
 	void Render();
 
-	void Release();
+	void Shutdown();
 }

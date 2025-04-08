@@ -10,7 +10,7 @@ namespace GDIRenderer
 {
 	void Initialize();
 
-	void Release();
+	void Shutdown();
 
 	void BeginDraw();
 

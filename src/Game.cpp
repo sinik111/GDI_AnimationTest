@@ -28,8 +28,8 @@ void Game::Render()
 	GDIRenderer::EndDraw();
 }
 
-void Game::Release()
+void Game::Shutdown()
 {
 	AnimationController::Release();
-	GDIRenderer::Release();
+	GDIRenderer::Shutdown();
 }
